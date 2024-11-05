@@ -11,6 +11,7 @@ This repository serves as a central hub for developers working on the Supra L1 C
 - `Other_Configuration_Errors.md`: For resolving various configuration & Miscellaneous Errors Developers might face.
 
 [**Discussions**:](https://github.com/Entropy-Foundation/supra-dev-hub/discussions) This forum is designated for developers to discuss features, errors, and seek assistance from the community while building on the Supra L1 Chain. Feel free to share questions, insights, and potential solutions here.
+
 [**Issues:**](https://github.com/Entropy-Foundation/supra-dev-hub/issues) Encountered an issue specific to a product? Open an Issue to report it here. We will always be improvising the Dev hub.
 
 ## Contributing to the Knowledge Base:
