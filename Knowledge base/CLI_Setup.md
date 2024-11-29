@@ -4,9 +4,6 @@ NOTE: Kindly follow the below format to get started with reporting the issues!
 - `SOLUTION SUMMARY`
 - `LINK TO ISSUE`
 --------------------------------------
-### Start Writing Below This:
---------------------------------------
-
 ## ISSUE SUMMARY: Supra Command Not Executing
 
 The `supra` command does not run as expected.
