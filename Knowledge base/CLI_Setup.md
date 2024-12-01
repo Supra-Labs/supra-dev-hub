@@ -58,3 +58,33 @@ If the issue persists: - Confirm your Docker installation is complete. - Check t
 
 **Link to Full Details:**
 N/A
+
+## ISSUE SUMMARY: I’m getting the following error when trying to run the recommended command from my terminal:
+
+/ Terminal Command
+```PowerShell
+docker run --name supra_cli -v <YOUR_PATH>:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
+```
+/ Response
+```PowerShell
+Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally
+docker: Error response from daemon: Head "https://asia-docker.pkg.dev/v2/supra-devnet/misc/supra-testnet/validator-node/manifests/v6.3.0": denied: Unauthenticated request. Unauthenticated requests do not have permission "artifactregistry.repositories.downloadArtifacts" on resource "projects/supra-devnet/locations/asia/repositories/misc" (or it may not exist).
+```
+### SOLUTION SUMMARY:
+Validator Version Wrong, Check validator version, Right Command:
+   ```PowerShell
+docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/keystone-labs/permissionless-iii/apps/contracts/supra/supra_configs:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
+   ```
+
+## ISSUE SUMMARY: what's the supra equivalent command for 
+
+```PowerShell
+aptos move create-resource-account-and-publish-package
+```
+### SOLUTION SUMMARY:
+We don't have a CLI command for this directly, you call the create_resource_account function manually, here is the GitHub ref to check its execution: https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/supra-framework/sources/resource_account.move
+
+
+## ISSUE SUMMARY:  
+
+### SOLUTION SUMMARY:
