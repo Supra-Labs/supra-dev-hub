@@ -34,6 +34,7 @@ Please update to Min V 1.1.24, This Version and Above includes the signMessage f
 Here's a code snippet for the help: 
 
 ```Javascript
+// Javascript
 import nacl from "tweetnacl";
 
 const haxString = '0x' + Buffer.from(signMessage, 'utf8').toString('hex')
@@ -54,6 +55,7 @@ console.log('signMessage response :: ', response)
 ```
 
 ```Typescript
+// Typescript
  const remove0xPrefix = (hexString: string) => {
     return hexString.startsWith("0x") ? hexString.slice(2) : hexString;
   }
