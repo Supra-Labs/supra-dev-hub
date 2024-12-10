@@ -1,4 +1,11 @@
 --------------------------------------
+
+## Table of Contents
+
+1. [Supra Command Not Executing](#supra-command-not-executing)
+2. [Docker Daemon Not Running](#docker-daemon-not-running)
+
+--------------------------------------
 NOTE: Kindly follow the below format to get started with reporting the issues!
 - `ISSUE SUMMARY`
 - `SOLUTION SUMMARY`
@@ -12,7 +19,7 @@ The `supra` command does not run as expected.
 supra
 ```
 
-### SOLUTION SUMMARY:
+## SOLUTION SUMMARY:
 
 1. Verify that aliasing is properly set for your Docker containers.
 2. Check if your Docker container is running in Docker Desktop:
@@ -45,7 +52,7 @@ You may encounter the error:
 
 docker: error during connect: this error may indicate that the docker daemon is not running: Post "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=supra_cli": open //./pipe/docker_engine: The system cannot find the file specified.
 
-### SOLUTION SUMMARY:
+## SOLUTION SUMMARY:
 
 Ensure Docker Desktop is running before executing the command
 Once Docker is running, retry the command.
@@ -70,7 +77,7 @@ docker run --name supra_cli -v <YOUR_PATH>:/supra/configs -e SUPRA_HOME=/supra/c
 Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally
 docker: Error response from daemon: Head "https://asia-docker.pkg.dev/v2/supra-devnet/misc/supra-testnet/validator-node/manifests/v6.3.0": denied: Unauthenticated request. Unauthenticated requests do not have permission "artifactregistry.repositories.downloadArtifacts" on resource "projects/supra-devnet/locations/asia/repositories/misc" (or it may not exist).
 ```
-### SOLUTION SUMMARY:
+## SOLUTION SUMMARY:
 Validator Version Wrong, Check validator version, Right Command:
    ```PowerShell
 docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/keystone-labs/permissionless-iii/apps/contracts/supra/supra_configs:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
@@ -81,10 +88,10 @@ docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/key
 ```PowerShell
 aptos move create-resource-account-and-publish-package
 ```
-### SOLUTION SUMMARY:
+## SOLUTION SUMMARY:
 We don't have a CLI command for this directly, you call the create_resource_account function manually, here is the GitHub ref to check its execution: https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/supra-framework/sources/resource_account.move
 
 
 ## ISSUE SUMMARY:  
 
-### SOLUTION SUMMARY:
+## SOLUTION SUMMARY:
