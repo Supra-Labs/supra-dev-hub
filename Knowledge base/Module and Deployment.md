@@ -196,5 +196,11 @@ More details on what's happening here:
 4. Functions include initializing the token, enforcing owner-only actions, and minting tokens to specified accounts.
 5. The module ensures strict access control and leverages Move's resource model for safe and efficient token management.
 
+## ISSUE SUMMARY: We are creating a token and then registering our account to have a coinstore for that token, it’s still reverting back on transfer function stating that account isn't registered.
 
- 
+## SOLUTION SUMMARY: 
+The error `account isn't registered` during the transfer function indicates that the recipient address hasn't been registered with the coin module. 
+
+Before like having token transfer and all ensure the recipient address is explicitly registered using the `register` function and If your token design allows for implicit registration, the `transfer` function could potentially register the recipient if they're not already registered. However, this might have security implications and should be carefully considered.
+
+You can check that the `coin module` is accessible to the `transfer` function. Ensure there are no module access restrictions that might prevent the `is_account_registered` and `transfer` functions from being called.
