@@ -1,10 +1,11 @@
---------------------------------------
 NOTE: Kindly follow the below format to get started with reporting the issues!
 - `ISSUE SUMMARY`
 - `SOLUTION SUMMARY`
 - `LINK TO ISSUE`
 --------------------------------------
-## ISSUE SUMMARY: Contract integration for contracts deployed on supra and integrated with client-side using supra sdk
+
+## ISSUE SUMMARY: 
+Contract integration for contracts deployed on supra and integrated with client-side using supra sdk
 
 ## SOLUTION SUMMARY: 
 Relevant Links:
