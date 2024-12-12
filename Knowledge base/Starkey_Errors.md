@@ -50,3 +50,22 @@ Can test in your browser dev console with the following
     message:"0x74657374"
   });
    ```
+
+## ISSUE SUMMARY: Starkey wallet or explorer Metadata retrieval for their custom token
+
+## SOLUTION SUMMARY: 
+
+   ```PowerShell
+https://rpc-testnet.supra.com/rpc/v1/accounts/0xa9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217/resources/0x1::coin::CoinInfo%3C0xa9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217::moon_coin::MoonCoin%3E
+   ```
+- Coins have a CoinInfo resource.
+- You query for the CoinInfo to retrieve the metadata.
+
+When you add it to Starkey, you add it as: `a9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217::moon_coin::MoonCoin`
+
+and the wallet will query the CoinInfo resource to grab the metadata for the token and display it in walletCoinInfo in coin.move:
+
+   ```PowerShell
+https://github.com/Entropy-Foundation/aptos-core/blob/f9652d1f0472fc60f887605ff13f[…]01b039e4/aptos-move/framework/supra-framework/sources/coin.move
+   ```
+
