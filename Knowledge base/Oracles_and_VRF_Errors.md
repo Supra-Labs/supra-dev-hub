@@ -30,3 +30,11 @@ For Chainlink if it fails only due to insufficient balance then it keeps the req
 
 ### SOLUTION SUMMARY:
 Using the code present in the master branch, Please ask follow this one: https://github.com/Entropy-Foundation/oracle-pull-example/tree/feat/DoraV2/rest/javascript
+
+## ISSUE SUMMARY: getting below caution for dVRF.
+"Supra dVRF V2 requires subscription to the service with a customer controlled wallet address to act as the main reference.
+Therefore you must register your wallet with the Supra team if you plan to consume Supra dVRF V2 within your smart contracts.
+Please refer to the Supra documentation for the latest steps on how to register your wallet for their service.".
+
+### SOLUTION SUMMARY:
+It means you have to whitelist your address with Supra Team and then use dVRF.
