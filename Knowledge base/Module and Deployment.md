@@ -204,3 +204,13 @@ The error `account isn't registered` during the transfer function indicates that
 Before like having token transfer and all ensure the recipient address is explicitly registered using the `register` function and If your token design allows for implicit registration, the `transfer` function could potentially register the recipient if they're not already registered. However, this might have security implications and should be carefully considered.
 
 You can check that the `coin module` is accessible to the `transfer` function. Ensure there are no module access restrictions that might prevent the `is_account_registered` and `transfer` functions from being called.
+
+## ISSUE SUMMARY:
+From Supraframework do we have supra coins?
+
+## SOLUTION SUMMARY: 
+
+Yes,
+  ```PowerShell
+use supra_framework::supra_coin;
+   ```
