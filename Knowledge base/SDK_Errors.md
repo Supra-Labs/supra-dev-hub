@@ -22,3 +22,16 @@ Supra have made changes in the support branch as well for this so devs don't hav
 - https://github.com/Entropy-Foundation/supra-l1-sdk/tree/support-ledger-wallet
 
 Devs can check the commits of 9th Dec'24 to check the changes made in that branch to replicate the same in your side of the code.
+
+## ISSUE SUMMARY: 
+In aptos sdk we have aptos.getAccountModule to check the module name do we have in supra sdk to check getAccountModule?
+
+## SOLUTION SUMMARY:
+The get account info function here returns the accounts auth key and sequence number:
+- https://sdk-docs.supra.com/classes/SupraClient.html#getAccountInfo
+
+also u can check deployed module via API:
+
+```
+https://rpc-testnet.supra.com/rpc/v1/accounts/{address}/modules/{module_name}
+```
