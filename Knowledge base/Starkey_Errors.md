@@ -65,7 +65,19 @@ When you add it to Starkey, you add it as: `a9aa1587371e78286391d86d7e951cf2c177
 
 and the wallet will query the CoinInfo resource to grab the metadata for the token and display it in walletCoinInfo in coin.move:
 
-   ```PowerShell
-https://github.com/Entropy-Foundation/aptos-core/blob/f9652d1f0472fc60f887605ff13f[…]01b039e4/aptos-move/framework/supra-framework/sources/coin.move
-   ```
+- https://github.com/Entropy-Foundation/aptos-core/blob/f9652d1f0472fc60f887605ff13f[…]01b039e4/aptos-move/framework/supra-framework/sources/coin.move
 
+## ISSUE SUMMARY: 
+How to call move function in my dapp if I used Chrome StarKey wallet
+
+## SOLUTION SUMMARY: 
+The code snippet in below link demonstrate that how can we create tx payload for entry function
+- https://github.com/Entropy-Foundation/supra-l1-sdk/blob/master/src/example.ts#L190 
+
+Convert the move function call to `rawTransaction` object and pass it to the data defined on Supra & [Starkey docs](https://docs.starkey.app/) and ignore the `sequence_number` like metamask ignore the nonce and the Starkey Wallet side will process later.
+
+## ISSUE SUMMARY: 
+when I try to get the balance using sdk it shows 200000000 but in the explorer, it shows 100000000 supra coin why?
+
+## SOLUTION SUMMARY: 
+This will be displayed on Starkey but not on Suprascan. It's shown to you as output, but it will not be in RPC or Exploror. Once this is unstacked or the time of the staking is over, then when that amount is again credited to their Star Key wallet, that activity will be tracked, and then this balance will be shown on a Surprascan. But not now until you have stacked your thing.
