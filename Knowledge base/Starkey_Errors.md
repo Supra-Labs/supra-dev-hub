@@ -74,4 +74,4 @@ How to call move function in my dapp if I used Chrome StarKey wallet
 The code snippet in below link demonstrate that how can we create tx payload for entry function
 - https://github.com/Entropy-Foundation/supra-l1-sdk/blob/master/src/example.ts#L190 
 
-Convert the move function call to `rawTransaction` object and pass it to the data defined on Supra & Starkey docs and ignore the `sequence_number` like metamask ignore the nonce and the [Starkey Wallet](https://docs.starkey.app/) side will process later.
+Convert the move function call to `rawTransaction` object and pass it to the data defined on Supra & [Starkey docs](https://docs.starkey.app/) and ignore the `sequence_number` like metamask ignore the nonce and the Starkey Wallet side will process later.
