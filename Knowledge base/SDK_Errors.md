@@ -11,3 +11,14 @@ Contract integration for contracts deployed on supra and integrated with client-
 Relevant Links:
 - https://sdk-docs.supra.com/classes/SupraClient.html
 - https://github.com/Entropy-Foundation/supra-l1-sdk/blob/master/src/example.ts
+
+## ISSUE SUMMARY: 
+Type error: Cannot find module `supra-l1-sdk` or its corresponding type declarations.
+
+## SOLUTION SUMMARY: 
+This issue could be resolved by defining `commonjs` acceptance in `next.config.js`.
+
+Supra have made changes in the support branch as well for this so devs don't have to do this: 
+- https://github.com/Entropy-Foundation/supra-l1-sdk/tree/support-ledger-wallet
+
+Devs can check the commits of 9th Dec'24 to check the changes made in that branch to replicate the same in your side of the code.
