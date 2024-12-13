@@ -35,3 +35,14 @@ also u can check deployed module via API:
 ```
 https://rpc-testnet.supra.com/rpc/v1/accounts/{address}/modules/{module_name}
 ```
+
+## ISSUE SUMMARY: 
+how to verify signature using supra SDK?
+
+## SOLUTION SUMMARY:
+- https://sdk-docs.supra.com/classes/SupraAccount.html#verifySignature
+
+Here is a link to the verifySignature function code from the `SupraAccount` class (imported from AptosAccount): 
+
+- https://github.com/Entropy-Foundation/aptos-core/blob/c5087137d9c9a85975c368894a24ae647fc49285/ecosystem/typescript/sdk/src/account/aptos_account.ts#L170C1-L179C4
+
