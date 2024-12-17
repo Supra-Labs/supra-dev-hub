@@ -55,8 +55,9 @@ Update the `tsconfig` file, Change `moduleResolution` from `bundler` to `node`
 ```
 "moduleResolution": "node",
 ```
-It will still have a warning, but The build will be working.
+It will still have a warning, but The build will be working. 
 
+Below is the warning you will get:
 ```
 The generated code contains 'async/await' because this module is using "topLevelAwait".
 However, your target environment does not appear to support 'async/await'.
