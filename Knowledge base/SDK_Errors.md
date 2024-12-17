@@ -46,3 +46,23 @@ Here is a link to the verifySignature function code from the `SupraAccount` clas
 
 - https://github.com/Entropy-Foundation/aptos-core/blob/c5087137d9c9a85975c368894a24ae647fc49285/ecosystem/typescript/sdk/src/account/aptos_account.ts#L170C1-L179C4
 
+## ISSUE SUMMARY: 
+In a NextJS application, Facing a Type error: Cannot find module 'supra-l1-sdk' or its corresponding type declarations.
+
+## SOLUTION SUMMARY:
+Update the `tsconfig` file, Change `moduleResolution` from `bundler` to `node`
+
+```
+"moduleResolution": "node",
+```
+It will still have a warning, but The build will be working. 
+
+Below is the warning you will get:
+```
+The generated code contains 'async/await' because this module is using "topLevelAwait".
+However, your target environment does not appear to support 'async/await'.
+As a result, the code may not run as expected or may cause runtime errors.
+
+Import trace for requested module:
+./src/libs/supra.ts
+```
