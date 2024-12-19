@@ -2,12 +2,14 @@
 1. [Supra Command Not Executing](#supra-command-not-executing)
 2. [Docker Daemon Not Running](#docker-daemon-not-running)
 
---------------------------------------
-NOTE: Kindly follow the below format to get started with reporting the issues!
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+NOTE: Follow the format below to get started with reporting the issues!
 - `ISSUE SUMMARY`
-- `SOLUTION SUMMARY`
-- `LINK TO ISSUE`
---------------------------------------
+- `SOLUTION SUMMARY` 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## ISSUE SUMMARY: Supra Command Not Executing
 
 The `supra` command does not run as expected.
@@ -34,8 +36,7 @@ supra
    - Restart the container.
    - Attempt to run the `supra` command again.
 
-**Link to Full Details:**
-N/A
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## ISSUE SUMMARY: Docker Daemon Not Running
 
@@ -60,8 +61,7 @@ docker run --name supra_cli -v <YOUR_PATH>:/supra/configs -e SUPRA_HOME=/supra/c
 
 If the issue persists: - Confirm your Docker installation is complete. - Check that the Docker service is properly configured to start.
 
-**Link to Full Details:**
-N/A
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## ISSUE SUMMARY: I’m getting the following error when trying to run the recommended command from my terminal:
 
@@ -80,6 +80,8 @@ Validator Version Wrong, Check validator version, Right Command:
 docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/keystone-labs/permissionless-iii/apps/contracts/supra/supra_configs:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
    ```
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 ## ISSUE SUMMARY: what's the supra equivalent command for 
 
 ```PowerShell
@@ -88,6 +90,7 @@ aptos move create-resource-account-and-publish-package
 ## SOLUTION SUMMARY:
 We don't have a CLI command for this directly, you call the create_resource_account function manually, here is the GitHub ref to check its execution: https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/supra-framework/sources/resource_account.move
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files.
 
