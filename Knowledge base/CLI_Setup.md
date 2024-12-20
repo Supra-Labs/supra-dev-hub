@@ -86,7 +86,7 @@ docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/key
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: Supra equivalent command for 
+## ISSUE SUMMARY: Supra equivalent command for
 
 ```PowerShell
 aptos move create-resource-account-and-publish-package
