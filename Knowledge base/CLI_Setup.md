@@ -96,7 +96,7 @@ We don't have a CLI command for this directly, you call the create_resource_acco
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files.
+## ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files
 
 ### SOLUTION SUMMARY:
 Use the below command and give the path to your main folder where the project is and then check in the docker container if it's reflecting:
