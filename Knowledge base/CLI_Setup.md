@@ -3,8 +3,8 @@
 2. [Docker Daemon Not Running](#ISSUE-SUMMARY-Docker-Daemon-Not-Running)
 3. [Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally](#ISSUE-SUMMARY-Unable-to-find-image)
 4. [Supra equivalent command for create-resource-account-and-publish-package](#ISSUE-SUMMARY-Supra-equivalent-command-for)
-5. [Not able to locate MOVE.Toml file](#ISSUE-SUMMARY-trouble-for-seeing-MOVE.Toml-file-at-local-but-only-on-Docker-Container-files)
-
+5. [Not able to locate MOVE.Toml file](##issue-summary-trouble-for-seeing-movetoml-file-at-local-but-only-on-docker-container-files)
+ 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 NOTE: Follow the format below to get started with reporting the issues!
