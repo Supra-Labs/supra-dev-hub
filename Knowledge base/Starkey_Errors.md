@@ -1,22 +1,27 @@
 ## Table of Contents
+1. [> Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
 
---------------------------------------
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 NOTE: Kindly follow the below format to get started with reporting the issues!
 - `ISSUE SUMMARY`
 - `SOLUTION SUMMARY`
-- `LINK TO ISSUE (If applicable)`
---------------------------------------
+ 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: share a sample code for Starkey wallet connection in next.js
+## ISSUE SUMMARY: Starkey Wallet Connection in Next.js
+Share a sample code for Starkey wallet connection in next.js
 
-## SOLUTION SUMMARY: 
+### ➥ SOLUTION SUMMARY: 
 
 **Demo Here:** https://frontend-web-wallet-connect-demo.vercel.app/supra-dapp
 **Repo:** https://github.com/Entropy-Foundation/frontend-web-wallet-connect-demo
 
-## ISSUE SUMMARY: sign function code snippet for Wallet
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## SOLUTION SUMMARY: 
+## ISSUE SUMMARY: Sign function code snippet for Wallet
+
+### ➥ SOLUTION SUMMARY: 
 signMessage accepts a hex string as message and returns object containing:
 address of signer, public key, and signature
 
@@ -50,10 +55,11 @@ Can test in your browser dev console with the following
     message:"0x74657374"
   });
    ```
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## ISSUE SUMMARY: Starkey wallet or explorer Metadata retrieval for their custom token
 
-## SOLUTION SUMMARY: 
+### ➥ SOLUTION SUMMARY: 
 
    ```PowerShell
 https://rpc-testnet.supra.com/rpc/v1/accounts/0xa9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217/resources/0x1::coin::CoinInfo%3C0xa9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217::moon_coin::MoonCoin%3E
@@ -67,17 +73,10 @@ and the wallet will query the CoinInfo resource to grab the metadata for the tok
 
 - https://github.com/Entropy-Foundation/aptos-core/blob/f9652d1f0472fc60f887605ff13f[…]01b039e4/aptos-move/framework/supra-framework/sources/coin.move
 
-## ISSUE SUMMARY: 
-How to call move function in my dapp if I used Chrome StarKey wallet
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## SOLUTION SUMMARY: 
-The code snippet in below link demonstrate that how can we create tx payload for entry function
-- https://github.com/Entropy-Foundation/supra-l1-sdk/blob/master/src/example.ts#L190 
-
-Convert the move function call to `rawTransaction` object and pass it to the data defined on Supra & [Starkey docs](https://docs.starkey.app/) and ignore the `sequence_number` like metamask ignore the nonce and the Starkey Wallet side will process later.
-
-## ISSUE SUMMARY: 
+## ISSUE SUMMARY: Difference in Balance on RPC and Explorer
 when I try to get the balance using sdk it shows 200000000 but in the explorer, it shows 100000000 supra coin why?
 
-## SOLUTION SUMMARY: 
+### ➥ SOLUTION SUMMARY: 
 This will be displayed on Starkey but not on Suprascan. It's shown to you as output, but it will not be in RPC or Exploror. Once this is unstacked or the time of the staking is over, then when that amount is again credited to their Star Key wallet, that activity will be tracked, and then this balance will be shown on a Surprascan. But not now until you have stacked your thing.
