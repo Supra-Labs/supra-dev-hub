@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Supra Command Not Executing](#-ISSUE-SUMMARY:-Supra-Command-Not-Executing)
+1. [Supra Command Not Executing](#ISSUE-SUMMARY:-Supra-Command-Not-Executing)
 2. [Docker Daemon Not Running](#docker-daemon-not-running)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
