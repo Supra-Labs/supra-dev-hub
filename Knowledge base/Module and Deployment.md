@@ -1,7 +1,13 @@
 ## Table of Contents
 1. [> Call Move function for StarKey Wallet](#issue-summary-call-move-function-for-starkey-wallet)
 2. [> Sign a message using Starkey Wallet](#issue-summary-sign-a-message-using-starkey-wallet)
-3. [> Digital Assets Dependency for NFT Dapp]
+3. [> Error Code 0x1::resource_account: 0x60001](#issue-summary-error-code-0x1resource_account-0x60001)
+4. [> Move compilation failed: supra move tool compile](#issue-summary-move-compilation-failed-supra-move-tool-compile)
+5. [> Call the Modules Deployed on Supra](#issue-summary-call-the-modules-deployed-on-supra)
+6. [> Digital Assets Dependency for NFT Dapp](#issue-summary-digital-assets-dependency-for-nft-dapp)
+7. [> Module for Implementation on a custom coin](#issue-summary-module-for-implementation-on-a-custom-coin)
+8. [> transfer function stating that account isn't registered](#issue-summary-transfer-function-stating-that-account-isnt-registered)
+9. [> Calling Supra Coin](#issue-summary-calling-supra-coin)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -12,7 +18,7 @@ NOTE: Kindly follow the below format to get started with reporting the issues!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: Call Move function for StarKey Wallet
+## ISSUE SUMMARY: Call Move function for StarKey Wallet
 
 ### ➥ SOLUTION SUMMARY:
 The code snippet in here demonstrate that how can we create tx payload for entry function: https://github.com/Entropy-Foundation/supra-l1-sdk/blob/master/src/example.ts#L190
@@ -34,8 +40,8 @@ For raw transaction, Process to create a `rawTx` and `serializedRawTx` is almost
     )
   ); 
 ```
-
-## ➪ ISSUE SUMMARY: sign a message using starkey wallet
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: sign a message using starkey wallet
 ### Couldn't find any docs regarding sign a message using starkey wallet, any example code that I can start with?
 
 ### ➥ SOLUTION SUMMARY:
@@ -71,7 +77,8 @@ console.log('signMessage response :: ', response)
 ```
 Demo LINK: https://frontend-web-wallet-connect-demo.vercel.app/supra-dapp
 
-## ➪ ISSUE SUMMARY: Error Code 0x1::resource_account: 0x60001
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Error Code 0x1::resource_account: 0x60001
 Getting error in deploying the contract to testnet while the contracts are build without any error and error code in output is 0x1::resource_account: 0x60001
 
 ### ➥ SOLUTION SUMMARY:
@@ -88,7 +95,8 @@ It means the container resource that stores the mapping of the resource address 
 Here is a repo that I used to test the create_resource_account_and_publish_package method 
 https://github.com/nolan-supra/TS-SDK_Create-Resource-Account-And-Publish-Package
 
-## ➪ ISSUE SUMMARY: Move compilation failed: supra move tool compile
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Move compilation failed: supra move tool compile
 
 Move compilation failed while doing `supra move tool compile --package-dir /supra/configs/move_workspace/PROJECT NAME` 
 
@@ -108,8 +116,8 @@ Add the dependency like this
    ```PowerShell
    SupraFramework = { git = "https://github.com/Entropy-Foundation/aptos-core.git", rev = "dev", subdir = "aptos-move/framework/supra-framework" }
    ```
-
-## ➪ ISSUE SUMMARY: Call the Modules Deployed on Supra
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Call the Modules Deployed on Supra
 An example code or like repo to Call the Modules Deployed on Supra. 
 
 ## ➥ SOLUTION SUMMARY:
@@ -123,8 +131,8 @@ https://rpc-testnet.supra.com/rpc/v1/accounts/{address}/modules
    ```PowerShell
 https://rpc-testnet.supra.com/rpc/v1/accounts/{address}/modules/{module_name}
    ```
-
-## ➪ ISSUE SUMMARY: Digital Assets Dependency for NFT Dapp
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Digital Assets Dependency for NFT Dapp
 
 ### ➥ SOLUTION SUMMARY: 
 these digital assets modules are deployed at the 0x4 address
@@ -133,15 +141,19 @@ these digital assets modules are deployed at the 0x4 address
 https://rpc-mainnet.supra.com/rpc/v1/accounts/0x4/modules
    ```
 - aptos-token (easy-to-use implementation of token)
+
 **docs:** https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/aptos-token-objects/doc/aptos_token.md
 
 **src:** https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/aptos-token-objects/sources/aptos_token.move
 
-- token
+- Token
+
 **doc:** https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/aptos-token-objects/doc/token.md
+
 **src:** https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/aptos-token-objects/sources/token.move
 
-## ➪ ISSUE SUMMARY: Module for Implementation on a custom coin. 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Module for Implementation on a custom coin. 
 
 ### ➥ SOLUTION SUMMARY: 
 A Move Module Made for a liquid swap on supra, Customize and use this to work for your Implementation on a custom coin:
@@ -209,7 +221,8 @@ More details on what's happening here:
 4. Functions include initializing the token, enforcing owner-only actions, and minting tokens to specified accounts.
 5. The module ensures strict access control and leverages Move's resource model for safe and efficient token management.
 
-## ➪ ISSUE SUMMARY: transfer function stating that account isn't registered
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: transfer function stating that account isn't registered
 We are creating a token and then registering our account to have a coinstore for that token, it’s still reverting back on transfer function stating that account isn't registered.
 
 ### ➥ SOLUTION SUMMARY: 
@@ -219,7 +232,8 @@ Before like having token transfer and all ensure the recipient address is explic
 
 You can check that the `coin module` is accessible to the `transfer` function. Ensure there are no module access restrictions that might prevent the `is_account_registered` and `transfer` functions from being called.
 
-## ➪ ISSUE SUMMARY: Calling Supra Coin
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## ISSUE SUMMARY: Calling Supra Coin
 From Supraframework do we have supra coins?
 
 ## ➥ SOLUTION SUMMARY: 

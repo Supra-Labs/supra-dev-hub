@@ -13,7 +13,7 @@ NOTE: Follow the format below to get started with reporting the issues!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: Supra Command Not Executing
+## ISSUE SUMMARY: Supra Command Not Executing
 
 The `supra` command does not run as expected.
 
@@ -41,7 +41,7 @@ supra
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: Docker Daemon Not Running
+## ISSUE SUMMARY: Docker Daemon Not Running
 
 When running the following command:
 
@@ -68,7 +68,7 @@ If the issue persists: - Confirm your Docker installation is complete. - Check t
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: Unable to find image:
+## ISSUE SUMMARY: Unable to find image:
 
 / Terminal Command
 ```PowerShell
@@ -88,7 +88,7 @@ docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/key
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: Supra equivalent command for
+## ISSUE SUMMARY: Supra equivalent command for
 
 ```PowerShell
 aptos move create-resource-account-and-publish-package
@@ -98,7 +98,7 @@ We don't have a CLI command for this directly, you call the create_resource_acco
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ➪ ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files
+## ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files
 
 ### ➥ SOLUTION SUMMARY:
 Use the below command and give the path to your main folder where the project is and then check in the docker container if it's reflecting:
