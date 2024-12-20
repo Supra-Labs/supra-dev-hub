@@ -1,6 +1,9 @@
 ## Table of Contents
-1. [Supra Command Not Executing](#ISSUE-SUMMARY-1-Supra-Command-Not-Executing)
+1. [Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
 2. [Docker Daemon Not Running](#ISSUE-SUMMARY-Docker-Daemon-Not-Running)
+3. [Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally](#ISSUE-SUMMARY-Unable-to-find-image)
+4. [Supra equivalent command for create-resource-account-and-publish-package](#ISSUE-SUMMARY-Supra-equivalent-command-for)
+5. [Not able to locate MOVE.Toml file](#ISSUE-SUMMARY-trouble-for-seeing-MOVE.Toml-file-at-local-but-only-on-Docker-Container-files.)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -10,7 +13,7 @@ NOTE: Follow the format below to get started with reporting the issues!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY 1: Supra Command Not Executing
+## ISSUE SUMMARY: Supra Command Not Executing
 
 The `supra` command does not run as expected.
 
@@ -63,7 +66,7 @@ If the issue persists: - Confirm your Docker installation is complete. - Check t
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: I’m getting the following error when trying to run the recommended command from my terminal:
+## ISSUE SUMMARY: Unable to find image:
 
 / Terminal Command
 ```PowerShell
@@ -83,7 +86,7 @@ docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/key
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: what's the supra equivalent command for 
+## ISSUE SUMMARY: Supra equivalent command for 
 
 ```PowerShell
 aptos move create-resource-account-and-publish-package
