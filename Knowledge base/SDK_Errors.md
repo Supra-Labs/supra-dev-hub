@@ -1,5 +1,8 @@
 ## Table of Contents
-1. [> Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
+1. [> client-side integration using supra sdk](#issue-summary-client-side-integration-using-supra-sdk)
+2. [> Check getAccountModule](#issue-summary-check-getaccountmodule)
+3. [> Verify Signature](#issue-summary-verify-signature)
+4. [> Type error: Cannot find module 'supra-l1-sdk'](#issue-summary-type-error-cannot-find-module-supra-l1-sdk)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
