@@ -13,7 +13,7 @@ NOTE: Kindly follow the below format to get started with reporting the issues!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: client-side integration using supra sdk
+## ISSUE SUMMARY: Client-side integration using supra sdk
 Integration for Module deployed on supra and integrated with client-side using supra sdk
 
 ### ➥ SOLUTION SUMMARY: 
