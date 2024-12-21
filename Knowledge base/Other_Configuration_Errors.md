@@ -1,6 +1,5 @@
 ## Table of Contents
-
-1. [Extract an address using a private key](#issue-summary-call-move-function-for-starkey-wallet)
+[Extract an address using a private key](#issue-summary-extract-an-address-using-a-private-key)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
