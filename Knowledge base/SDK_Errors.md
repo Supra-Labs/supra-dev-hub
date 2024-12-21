@@ -47,7 +47,7 @@ Here is a link to the verifySignature function code from the `SupraAccount` clas
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: 
+## ISSUE SUMMARY: Type error: Cannot find module 'supra-l1-sdk'
 In a NextJS application, Facing a Type error: Cannot find module 'supra-l1-sdk' or its corresponding type declarations.
 
 ### ➥ SOLUTION SUMMARY:
