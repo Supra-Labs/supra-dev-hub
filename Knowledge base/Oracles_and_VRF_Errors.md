@@ -1,6 +1,10 @@
 ## Table of Contents
 1. [> Call Move function for StarKey Wallet](#issue-summary-call-move-function-for-starkey-wallet)
-
+2. [> If a request fails on callback, is there a time-delay before it is retried?](#issue-summary-if-a-request-fails-on-callback-is-there-a-time-delay-before-it-is-retried)
+3. [> Time period For Request tobe permanently dropped](#issue-summary-time-period-for-request-tobe-permanently-dropped)
+4. [> Callback due to Insufficient Fund](#issue-summary--callback-due-to-insufficient-fund)
+5. [> Pull Oracles are returning 404](#issue-summary-pull-oracles-are-returning-404)
+6. [> Whitelisting Note for dVRF.](#issue-summary-whitelisting-note-for-dvrf)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
