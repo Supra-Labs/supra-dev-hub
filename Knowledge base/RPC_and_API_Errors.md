@@ -10,8 +10,7 @@ NOTE: Kindly follow the below format to get started with reporting the issues!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: 
-Is there any gas price API in SDK?
+## ISSUE SUMMARY: Is there any gas price API in SDK?
 
 ### ➥ SOLUTION SUMMARY: 
 https://sdk-docs.supra.com/classes/SupraClient.html#getGasPrice
