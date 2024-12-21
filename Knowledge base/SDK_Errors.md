@@ -3,7 +3,7 @@
 2. [> Check getAccountModule](#issue-summary-check-getaccountmodule)
 3. [> Verify Signature](#issue-summary-verify-signature)
 4. [> Type error: Cannot find module 'supra-l1-sdk'](#issue-summary-type-error-cannot-find-module-supra-l1-sdk)
-5. [> TYPE_RESOLUTION_FAILURE](#issue-summary-verify-signature)
+5. [> TYPE_RESOLUTION_FAILURE](#issue-summary-type_resolution_failure)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -112,7 +112,12 @@ Try the below approach
   );
 ```
 
+
+**NOW,**
+
+`
 If TxnBuilderTypes cannot be imported from the SDK, then try the import below:
+`
 
 ```
 import { SupraAccount, HexString, SupraClient, BCS, TxnBuilderTypes } from "supra-l1-sdk";
