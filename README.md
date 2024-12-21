@@ -5,12 +5,19 @@ This repository serves as a central hub for developers working on the Supra L1 C
 
 ### [**Knowledge base(Subdirectory)**:](https://github.com/Entropy-Foundation/supra-dev-hub/tree/main/Knowledge%20base) 
 This directory houses detailed Markdown files covering common get-started issues and their solutions for Supra L1 Chain development, categorized by topic:
+
 - `CLI_Setup.md`: Compilation of General issues encountered while setting up and configuring the Supra L1 Chain command-line interface (CLI).
+
 - `Starkey_Errors.md`: for issues and requirements related to starkey wallet, the official wallet for Supra L1.
+
 - `SDK_Errors.md`: For troubleshooting and solutions regarding SDK-related errors and issues.
+
 - `Module and Deployment.md`: For issues regarding deploying on Supra or Move Module errors.
+
 - `RPC_and_API_Errors.md`: Dedicated group of potential solutions for RPC and API-related errors.
+
 - `Oracles_and_VRF_Errors.md`: For Troubleshooting issues with Supra's Oracles and Verifiable Random Functions(VRF) Services.
+
 - `Other_Configuration_Errors.md`: For resolving various configuration & Miscellaneous Errors Developers might face.
 
 ## **Not able to find your issue in knowledge base?**
