@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [> Call Move function for StarKey Wallet](#issue-summary-call-move-function-for-starkey-wallet)
-2. [> Sign a message using Starkey Wallet](#issue-summary-sign-a-message-using-starkey-wallet)
+2. [> Sign & Verify message using Starkey Wallet](#issue-summary-sign-a-message-using-starkey-wallet)
 3. [> Error Code 0x1::resource_account: 0x60001](#issue-summary-error-code-0x1resource_account-0x60001)
 4. [> Move compilation failed: supra move tool compile](#issue-summary-move-compilation-failed-supra-move-tool-compile)
 5. [> Call the Modules Deployed on Supra](#issue-summary-call-the-modules-deployed-on-supra)
