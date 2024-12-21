@@ -1,14 +1,14 @@
 # **Supra-dev-hub**
-This repository serves as a central hub for developers working on the Supra L1 Chain. It provides essential resources, troubleshooting guides, and a collaborative platform for discussion and issue resolution.
+This repository is a central hub for developers working on the Supra L1 Chain. It provides essential resources, troubleshooting guides, and a collaborative discussion and issue resolution platform.
 
 ## **Get Started with Supra-dev-hub:**
 
 ### [**Knowledge base(Subdirectory)**:](https://github.com/Entropy-Foundation/supra-dev-hub/tree/main/Knowledge%20base) 
 This directory houses detailed Markdown files covering common get-started issues and their solutions for Supra L1 Chain development, categorized by topic:
 
-- `CLI_Setup.md`: Compilation of General issues encountered while setting up and configuring the Supra L1 Chain command-line interface (CLI).
+- `CLI_Setup.md`: Compilation of General issues encountered while setting up and configuring the Supra CLI
 
-- `Starkey_Errors.md`: for issues and requirements related to starkey wallet, the official wallet for Supra L1.
+- `Starkey_Errors.md`: for issues and requirements related to Starkey wallet, the official wallet for Supra L1.
 
 - `SDK_Errors.md`: For troubleshooting and solutions regarding SDK-related errors and issues.
 
@@ -20,9 +20,9 @@ This directory houses detailed Markdown files covering common get-started issues
 
 - `Other_Configuration_Errors.md`: For resolving various configuration & Miscellaneous Errors Developers might face.
 
-## **Not able to find your issue in knowledge base?**
+## **Not able to find your issue in the knowledge base?**
 ### [**Discussions**:](https://github.com/Entropy-Foundation/supra-dev-hub/discussions) 
-Use this forum to discuss features, errors, and seek assistance from the community & Supra Team if you can't find relevent answers in the Knowledgebase. Feel free to share questions, insights, and potential solutions here.
+Use this forum to discuss features, and errors, and seek assistance from the community & Supra Team if you can't find relevant answers in the Knowledgebase. Feel free to share questions, insights, and potential solutions here.
 
 ### Contributing to the Knowledge Base:
 The knowledge base thrives on collaboration! If you encounter a new error or have valuable solutions to share, consider contributing to the existing Markdown files by making a PR at [**Issues:**](https://github.com/Entropy-Foundation/supra-dev-hub/issues) or Sharing it in Discussions. This helps us build a comprehensive resource for all Supra L1 Chain developers.
