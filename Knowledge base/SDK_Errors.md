@@ -3,6 +3,7 @@
 2. [> Check getAccountModule](#issue-summary-check-getaccountmodule)
 3. [> Verify Signature](#issue-summary-verify-signature)
 4. [> Type error: Cannot find module 'supra-l1-sdk'](#issue-summary-type-error-cannot-find-module-supra-l1-sdk)
+5. [> TYPE_RESOLUTION_FAILURE](#issue-summary-verify-signature)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -74,3 +75,90 @@ Supra have made changes in the support branch as well for this so devs don't hav
 - https://github.com/Entropy-Foundation/supra-l1-sdk/tree/support-ledger-wallet
 
 Devs can check the commits of 9th Dec'24 to check the changes made in that branch to replicate the same in your side of the code.
+
+## ISSUE SUMMARY: TYPE_RESOLUTION_FAILURE
+The below does not allow me to pass a string for the type argument. How should I format it there?
+
+```
+let rawBuyTransactiopn = await supraClient.createRawTxObject(
+    senderAccount.address(),
+    (
+      await supraClient.getAccountInfo(senderAccount.address())
+    ).sequence_number,
+    config.DEX_CONTRACT,
+    "router",
+    "swap_exact_input",
+    [],
+    []
+  );
+```
+
+### ➥ SOLUTION SUMMARY:
+Try the below approach
+
+```
+  // To create a serialized raw transaction
+  let supraCoinTransferSerializedRawTransaction =
+  await supraClient.createSerializedRawTxObject(
+    senderAccount.address(),
+    (
+      await supraClient.getAccountInfo(senderAccount.address())
+    ).sequence_number,
+    "0000000000000000000000000000000000000000000000000000000000000001",
+    "supra_account",
+    "transfer_coins",
+    [new TxnBuilderTypes.TypeTagParser("0x1::supra_coin::SupraCoin").parseTypeTag()],
+    [new HexString("0x4d58f6c00e4902d28c4dfada7bbe46daf19e73033b0b05f02b54179353fa737b").toUint8Array(), BCS.bcsSerializeUint64(1000)]
+  );
+```
+
+If TxnBuilderTypes cannot be imported from the SDK, then try the import below:
+
+```
+import { SupraAccount, HexString, SupraClient, BCS, TxnBuilderTypes } from "supra-l1-sdk";
+
+async function main(){
+
+  //console.log(new TxnBuilderTypes.TypeTagParser("0x1::supra_coin::SupraCoin").parseTypeTag());
+  //process.exit(0);
+
+    const senderAccount = new SupraAccount(Buffer.from("", "hex"));
+
+    
+  let supraClient = await SupraClient.init(
+    // "http://localhost:27001/"
+    "https://rpc-testnet.supra.com/"
+  );
+  
+
+  // To create a serialized raw transaction
+  let supraCoinTransferSerializedRawTransaction =
+  await supraClient.createSerializedRawTxObject(
+    senderAccount.address(),
+    (
+      await supraClient.getAccountInfo(senderAccount.address())
+    ).sequence_number,
+    "0000000000000000000000000000000000000000000000000000000000000001",
+    "supra_account",
+    "transfer_coins",
+    [new TxnBuilderTypes.TypeTagParser("0x1::supra_coin::SupraCoin").parseTypeTag()],
+    [new HexString("").toUint8Array(), BCS.bcsSerializeUint64(1000)]
+  );
+
+
+  // To send serialized transaction
+  console.log(
+  await supraClient.sendTxUsingSerializedRawTransaction(
+    senderAccount,
+    supraCoinTransferSerializedRawTransaction,
+    {
+      enableTransactionSimulation: true,
+      enableWaitForTransaction: true,
+    }
+  )
+  );
+  
+}
+
+main();
+```
