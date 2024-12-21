@@ -1,5 +1,8 @@
 ## Table of Contents
-1. [> Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
+1. [> Starkey Wallet Connection in Next.js](#ISSUE-SUMMARY-starkey-wallet-connection-in-nextjs)
+2. [> Sign function code snippet for Wallet](#ISSUE-SUMMARY-sign-function-code-snippet-for-wallet)
+3. [> Metadata retrieval for their custom token](#ISSUE-SUMMARY-starkey-wallet-or-explorer-metadata-retrieval-for-their-custom-token)
+4. [> Difference in Balance on RPC and Explorer](#ISSUE-SUMMARY-difference-in-balance-on-rpc-and-explorer)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
