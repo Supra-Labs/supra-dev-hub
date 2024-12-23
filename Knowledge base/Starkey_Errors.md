@@ -18,7 +18,8 @@ Share a sample code for Starkey wallet connection in next.js
 ### ➥ SOLUTION SUMMARY: 
 
 **Demo Here:** https://frontend-web-wallet-connect-demo.vercel.app/supra-dapp
-**Repo:** https://github.com/Entropy-Foundation/frontend-web-wallet-connect-demo
+
+**Repo:** https://github.com/nolan-supra/starkey-demo
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
