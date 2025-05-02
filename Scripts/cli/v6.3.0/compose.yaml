@@ -1,0 +1,22 @@
+services:
+#MAINNET CONTAINER
+  supra_cli:
+    #NAME OF CONTAINER
+    container_name: supra_cli
+    #IMAGE FOR CONTAINER
+    image: asia-docker.pkg.dev/supra-devnet-misc/supra-testnet/validator-node:v6.3.0
+    #ENVIRONMENT VARIABLES WITHIN CONTAINER
+    environment:
+      SUPRA_HOME: /supra/configs 
+    #CREATES THE BIND MOUNTS FROM HOST MACHINE TO CONTAINER.
+    volumes:
+      - type: bind
+        source: ./supra_configs
+        target: /supra/configs
+    #ALLOCATES A PSEUDO-TTY
+    tty: true
+    #SHARE THE HOST NETWORK
+    network_mode: host
+    #ENTRYPOINT, SETS THE ALIAS INSIDE THE CONTAINER FOR docker exect -it CONTAINER_NAME /bin/bash or docker exect -it CONTAINER_NAME /bin/sh -l
+    entrypoint: >
+      bash -c "echo 'supra() { /supra/supra \"\$@\"; }' >> ~/.profile && echo \"alias supra='/supra/supra'\" >> ~/.bashrc && exec bash"
