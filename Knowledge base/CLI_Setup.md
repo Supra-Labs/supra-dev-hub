@@ -1,15 +1,50 @@
 ## Table of Contents
-1. [> Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
-2. [> Docker Daemon Not Running](#ISSUE-SUMMARY-Docker-Daemon-Not-Running)
-3. [> Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally](#ISSUE-SUMMARY-Unable-to-find-image)
-4. [> Supra equivalent command for create-resource-account-and-publish-package](#ISSUE-SUMMARY-Supra-equivalent-command-for)
-5. [> Not able to locate MOVE.Toml file](#issue-summary-trouble-for-seeing-movetoml-file-at-local-but-only-on-docker-container-files)
- 
+1. [> Suppy Uri Value](#ISSUE-SUMMARY-Suppy-Uri-Value)
+
+2. [> MODULE_ADDRESS_DOES_NOT_MATCH_SENDER](#ISSUE-SUMMARY-Module-address-doesnt-match-sender)
+
+3. [> Supra Command Not Executing](#ISSUE-SUMMARY-Supra-Command-Not-Executing)
+
+4. [> Docker Daemon Not Running](#ISSUE-SUMMARY-Docker-Daemon-Not-Running)
+
+5. [> Supra equivalent command for create-resource-account](#ISSUE-SUMMARY-Supra-equivalent-command-for)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 NOTE: Follow the format below to get started with reporting the issues!
 - `ISSUE SUMMARY`
 - `SOLUTION SUMMARY` 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## ISSUE SUMMARY: Suppy Uri Value
+getting value input message while installing CLI -
+
+```bash
+cmdlet Invoke-WebRequest at command pipeline position 1
+Supply values for the following parameters:
+Uri:
+```
+
+### ➥ SOLUTION SUMMARY:
+You can use **Git Bash** instead of powershell to avoid this issue while installing CLI.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## ISSUE SUMMARY: Module address doesnt match sender
+Module not getting deployed
+
+ ```bash
+"vm status": "MODULE_ADDRESS_DOES_NOT_MATCH_SENDER"
+ ```
+
+### ➥ SOLUTION SUMMARY:
+- This is supposed to be generated CLI profile address.
+- Make sure the activated profile is the same that you have set as the named address in move.toml.
+- To check if it's activated - there will be a star next to it.
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -68,26 +103,6 @@ If the issue persists: - Confirm your Docker installation is complete. - Check t
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ISSUE SUMMARY: Unable to find image:
-
-/ Terminal Command
-```PowerShell
-docker run --name supra_cli -v <YOUR_PATH>:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
-```
-/ Response
-```PowerShell
-Unable to find image 'asia-docker.pkg.dev/supra-devnet/misc/supra-testnet/validator-node:v6.3.0' locally
-docker: Error response from daemon: Head "https://asia-docker.pkg.dev/v2/supra-devnet/misc/supra-testnet/validator-node/manifests/v6.3.0": denied: Unauthenticated request. Unauthenticated requests do not have permission "artifactregistry.repositories.downloadArtifacts" on resource "projects/supra-devnet/locations/asia/repositories/misc" (or it may not exist).
-```
-### ➥ SOLUTION SUMMARY:
-
-Validator Version Wrong, Check validator version, Right Command:
-   ```PowerShell
-docker run --name supra_cli -v /Users/danielwarren/Documents/code/hackathons/keystone-labs/permissionless-iii/apps/contracts/supra/supra_configs:/supra/configs -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet- misc/supra-testnet/validator-node:v6.3.0
-   ```
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 ## ISSUE SUMMARY: Supra equivalent command for
 
 ```PowerShell
@@ -97,16 +112,3 @@ aptos move create-resource-account-and-publish-package
 We don't have a CLI command for this directly, you call the create_resource_account function manually, here is the GitHub ref to check its execution: https://github.com/Entropy-Foundation/aptos-core/blob/dev/aptos-move/framework/supra-framework/sources/resource_account.move
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-## ISSUE SUMMARY: trouble for seeing MOVE.Toml file at local but only on Docker Container files
-
-### ➥ SOLUTION SUMMARY:
-Use the below command and give the path to your main folder where the project is and then check in the docker container if it's reflecting:
-
-```PowerShell
-docker run --name supra_cli -v ${PWD}:/supra/configs/<PATH LINK> -e SUPRA_HOME=/supra/configs --net=host -itd asia-docker.pkg.dev/supra-devnet-misc/supra-testnet/validator-node:v6.3.0
-```
-
-Also for Move.toml issue, the one in the local project folder has to be the same as the Move.toml file in your Docker container.
-
-Click on supra container > files > Supra folder > config > Move workspace > check the move.toml file via code editor and make sure it has the same address and dependencies.
