@@ -4,15 +4,15 @@ This handbook is your go-to guide for building on Supra. Inside, you’ll find e
 
 ## Table of Contents
 
-1. [**About Supra**](##-About-Supra:)
+1. [**About Supra**](#About-Supra)
 
-2. [**Quick Links & Resources**](##-Quick-Links-&-Resources)
+2. [**Quick Links & Resources**](#Quick-Links-&-Resources)
 
-3. [**Documentation & Guides**](##-Documentation-&-Guides)
+3. [**Documentation & Guides**](#Documentation-&-Guides)
 
-4. [**Developer Tools & Integrations**](##-Developer-Tools-&-Integrations)
+4. [**Developer Tools & Integrations**](#Developer-Tools-&-Integrations)
 
-## About Supra:
+## About Supra
 Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts impressive performance, recording 500k TPS on 300 nodes with sub-second consensus latency—and offers full vertical integration of native oracles, DVRF, bridging, automation, as well as support for both EVM and SVM. This unified ecosystem makes Supra the perfect playground for developing Super dApps.
 
 ## Quick Links & Resources
