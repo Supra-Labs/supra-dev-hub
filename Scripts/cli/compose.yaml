@@ -11,8 +11,11 @@ services:
     #CREATES THE BIND MOUNTS FROM HOST MACHINE TO CONTAINER.
     volumes:
       - type: bind
-        source: ./supra_configs
+        source: ./supra/configs
         target: /supra/configs
+      - type: bind
+        source: ./supra/move_workspace
+        target: /supra/move_workspace
     #ALLOCATES A PSEUDO-TTY
     tty: true
     #SHARE THE HOST NETWORK
