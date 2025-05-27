@@ -24,45 +24,51 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 ## Quick Links & Resources 
 
-Supra Documentation: https://docs.supra.com/
+**Supra Documentation:** https://docs.supra.com/
 
-RPC URLs: https://docs.supra.com/network-information
+**RPC URLs:** https://docs.supra.com/network-information
 
-Learn Move 101: https://docs.supra.com/network/move/learn-move
+**Learn Move 101:** https://docs.supra.com/network/move/learn-move
 
-REST APIs: https://docs.supra.com/network/move/rest-api
+**REST APIs:** https://docs.supra.com/network/move/rest-api
 
-Supra Explorer: https://suprascan.io/
+**Supra Explorer:** https://suprascan.io/
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 
 ## Documentation & Guides
 
-Supra Framework Docs & Modules: https://github.com/Entropy-Foundation/aptos-core/tree/dev/aptos-move/framework/supra-framework
+#### Framework & SDK Docs & Guide
 
-Supra-L1-SDK Docs: https://sdk-docs.supra.com/index.html
+1. **Supra Framework Docs & Modules:** https://github.com/Entropy-Foundation/aptos-core/tree/dev/aptos-move/framework/supra-framework
 
-Learn Move 101: https://docs.supra.com/network/move/learn-move
+2. **Supra-L1-SDK Docs:** https://sdk-docs.supra.com/index.html
 
-Starkey Wallet Docs: https://docs.starkey.app/
+3. **Learn Move 101:** https://docs.supra.com/network/move/learn-move
 
-Create a dApp with StarKey: https://docs.supra.com/network/move/getting-started/your-first-dapp-with-starkey
+#### Starkey Wallet Guide
 
-Supra AI Agents Guide: https://github.com/Supra-Labs/Supra-agents-hub
+1. **Starkey Wallet Docs:** https://docs.starkey.app/
 
-Your First AI Agent on Supra: https://docs.supra.com/ai-agents
+2. **Create a dApp with StarKey:** https://docs.supra.com/network/move/getting-started/your-first-dapp-with-starkey
+
+#### AI Agents Docs & Guide
+
+1. **Supra AI Agents Guide:** https://github.com/Supra-Labs/Supra-agents-hub
+
+2. **Your First AI Agent on Supra:** https://docs.supra.com/ai-agents
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 
 ## Developer Tools & Integrations
 
-Supra Dapp Templates: https://docs.supra.com/network/move/dev/supra-dapp-templates
+**Supra Dapp Templates:** https://docs.supra.com/network/move/dev/supra-dapp-templates
 
-Supra Move VS Code Extension: https://docs.supra.com/network/move/dev/supra-move-vs-code-extension
+**Supra Move VS Code Extension:** https://docs.supra.com/network/move/dev/supra-move-vs-code-extension
 
-Nightly Wallet Supra Integration: https://github.com/nightly-labs/supra-web3-template
+**Nightly Wallet Supra Integration:** https://github.com/nightly-labs/supra-web3-template
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
