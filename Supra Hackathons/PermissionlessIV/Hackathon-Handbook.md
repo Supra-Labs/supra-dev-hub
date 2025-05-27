@@ -39,7 +39,7 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 ## Documentation & Guides
 
-#### Framework & SDK Docs & Guide
+### Framework & SDK Docs & Guide
 
 1. **Supra Framework Docs & Modules:** https://github.com/Entropy-Foundation/aptos-core/tree/dev/aptos-move/framework/supra-framework
 
@@ -47,13 +47,13 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 3. **Learn Move 101:** https://docs.supra.com/network/move/learn-move
 
-#### Starkey Wallet Guide
+### Starkey Wallet Guide
 
 1. **Starkey Wallet Docs:** https://docs.starkey.app/
 
 2. **Create a dApp with StarKey:** https://docs.supra.com/network/move/getting-started/your-first-dapp-with-starkey
 
-#### AI Agents Docs & Guide
+### AI Agents Docs & Guide
 
 1. **Supra AI Agents Guide:** https://github.com/Supra-Labs/Supra-agents-hub
 
