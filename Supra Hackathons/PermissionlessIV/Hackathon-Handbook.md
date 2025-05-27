@@ -5,13 +5,13 @@ This handbook is your go-to guide for building on Supra. Inside, you’ll find e
 
 ## Table of Contents
 
-1. [**About Supra**](#About-Supra)
+1. [**Quick Links & Resources**](#quick-links--resources)
 
-2. [**Quick Links & Resources**](#quick-links--resources)
+2. [**Documentation & Guides**](#documentation--guides)
 
-3. [**Documentation & Guides**](#documentation--guides)
+3. [**Developer Tools & Integrations**](#developer-tools--integrations)
 
-4. [**Developer Tools & Integrations**](#developer-tools--integrations)
+4. [**Hackathon Project Idea References**](#project-Idea-references)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
@@ -34,8 +34,6 @@ REST APIs: https://docs.supra.com/network/move/rest-api
 
 Supra Explorer: https://suprascan.io/
 
-Discord Support: https://discord.com/invite/supralabs
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 
@@ -49,14 +47,11 @@ Learn Move 101: https://docs.supra.com/network/move/learn-move
 
 Starkey Wallet Docs: https://docs.starkey.app/
 
-Nightly Wallet Supra Integration: https://github.com/nightly-labs/supra-web3-template
-
-Supra AI Agents Guide: https://github.com/Supra-Labs/supra-ai-agents-guide
-
-Supra-dev-hub: https://github.com/Supra-Labs/supra-dev-hub
-
 Create a dApp with StarKey: https://docs.supra.com/network/move/getting-started/your-first-dapp-with-starkey
 
+Supra AI Agents Guide: https://github.com/Supra-Labs/Supra-agents-hub
+
+Your First AI Agent on Supra: https://docs.supra.com/ai-agents
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
@@ -67,4 +62,10 @@ Supra Dapp Templates: https://docs.supra.com/network/move/dev/supra-dapp-templat
 
 Supra Move VS Code Extension: https://docs.supra.com/network/move/dev/supra-move-vs-code-extension
 
+Nightly Wallet Supra Integration: https://github.com/nightly-labs/supra-web3-template
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
+
+
+## Project Idea References
 
