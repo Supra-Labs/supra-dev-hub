@@ -20,7 +20,7 @@ Supra’s automation framework is integrated directly into the execution layer, 
 
   $5,000
 
-- **What is the number of projects awarded in This Perticular Challenge?**
+- **What is the number of projects awarded in This Particular Challenge?**
 
   3 Projects
 
@@ -50,7 +50,7 @@ Explore how AI agents can interact with Supra's on-chain logic. This could mean 
 
   $5,000
 
-- **What is the number of projects awarded in This Perticular Challenge?**
+- **What is the number of projects awarded in This Particular Challenge?**
 
   3 Projects
 
@@ -80,7 +80,7 @@ Supra is building out its ecosystem—help us accelerate that by building essent
 
   $5,000
 
-- **What is the number of projects awarded in This Perticular Challenge?**
+- **What is the number of projects awarded in This Particular Challenge?**
 
   3 Projects
 
