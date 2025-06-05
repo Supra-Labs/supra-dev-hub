@@ -21,5 +21,8 @@ services:
     #SHARE THE HOST NETWORK
     network_mode: host
     #ENTRYPOINT, SETS THE ALIAS INSIDE THE CONTAINER FOR docker exect -it CONTAINER_NAME /bin/bash or docker exect -it CONTAINER_NAME /bin/sh -l
+    env_file: 
+      - path: ./supra-cli.env
+        required: false
     entrypoint: >
       bash -c "echo 'supra() { /supra/supra \"\$@\"; }' >> ~/.profile && echo \"alias supra='/supra/supra'\" >> ~/.bashrc && exec bash"
