@@ -1,5 +1,8 @@
+#NAME OF GROUP
+name: supra_cli
+#DECLARE THE SERVICES IN THE PROJECT
 services:
-#MAINNET CONTAINER
+#CLI CONTAINER
   supra_cli:
     #NAME OF CONTAINER
     container_name: supra_cli
