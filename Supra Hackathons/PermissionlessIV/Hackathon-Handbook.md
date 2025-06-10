@@ -11,8 +11,6 @@ This handbook is your go-to guide for building on Supra. Inside, you’ll find e
 
 3. [**Developer Tools & Integrations**](#developer-tools--integrations)
 
-4. [**Hackathon Project Idea References**](#project-Idea-references)
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
@@ -70,8 +68,12 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 **Nightly Wallet Supra Integration:** https://github.com/nightly-labs/supra-web3-template
 
+**OpenBlocks.ai (Supra L1 network stats and recent on-chain activity):** https://openblocks.ai/
+
+**Mobula Indexing Docs:** 
+
+   - **Testnet:** https://docs.mobula.io/blockchains/supra-testnet
+
+   - **Mainnet:** https://docs.mobula.io/blockchains/supra
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
-
-
-## Project Idea References
-
