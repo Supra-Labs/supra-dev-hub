@@ -66,8 +66,6 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 **Supra Move VS Code Extension:** https://docs.supra.com/network/move/dev/supra-move-vs-code-extension
 
-**Nightly Wallet Supra Integration:** https://github.com/nightly-labs/supra-web3-template
-
 **OpenBlocks.ai (Supra L1 network stats and recent on-chain activity):** https://openblocks.ai/
 
 **Mobula Indexing Docs:** 
