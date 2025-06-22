@@ -74,4 +74,6 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
    - **Mainnet:** https://docs.mobula.io/blockchains/supra
 
+**Supra Move Examples:** https://github.com/Entropy-Foundation/aptos-core/tree/dev/aptos-move/move-examples
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
