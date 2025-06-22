@@ -57,6 +57,8 @@ Supra is a cutting‐edge MultiVM Layer 1 platform powered by MoveVM. It boasts 
 
 2. Your First AI Agent on Supra: https://docs.supra.com/ai-agents
 
+3. Claude Desktop local MCP Integration for Supra Code Generation: https://github.com/JatinSupra/SUPRA-mcp-code-gen
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 
