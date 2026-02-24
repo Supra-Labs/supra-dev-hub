@@ -7,7 +7,7 @@ services:
     #NAME OF CONTAINER
     container_name: supra_cli
     #IMAGE FOR CONTAINER
-    image: asia-docker.pkg.dev/supra-devnet-misc/supra-testnet/validator-node:v9.0.12
+    image: supraoracles/supra-testnet-validator-node:v9.0.12
     #ENVIRONMENT VARIABLES WITHIN CONTAINER
     environment:
       SUPRA_HOME: /supra/configs 
